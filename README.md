@@ -45,7 +45,7 @@ Este projeto é uma aplicação completa de To-Do List com backend em Node.js/Ty
 
 ### 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/todolist-app.git
+git clone https://github.com/seu-usuario/to-do-list-app.git
 ```
 
 ### 2. Instale as dependências:
