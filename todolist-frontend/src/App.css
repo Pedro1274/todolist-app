@@ -1,0 +1,123 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #ff0000;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+}
+
+.field {
+  margin-bottom: 20px;
+}
+
+.input {
+  width: 100%;
+}
+
+.button {
+  margin-top: 10px;
+}
+
+.tasks-container {
+  margin-top: 20px;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #e3e3e3;
+  border-radius: 5px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox input {
+  margin-right: 10px;
+}
+
+.delete {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #e74c3c;
+}
+
+.delete:hover {
+  color: #c0392b;
+}
+
+.delete-icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  margin-top: 5px;
+  object-fit: contain;
+  z-index: 100;
+}
+
+.button-border {
+  padding: 10px;
+  border: 10px;
+}
+
+/* Limita o texto a 70 caracteres e coloca "..." caso ultrapasse */
+.checkbox span {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 70ch; /* Aproximadamente 70 caracteres */
+  color: black;
+}
