@@ -2,6 +2,9 @@
 
 Este projeto é uma aplicação completa de To-Do List com backend em Node.js/TypeScript e frontend em Vite/React.
 
+Foto do projeto realizado:
+![To-Do List App](./todolist-frontend/src/assets/project-photo.jpg)
+
 ## Tecnologias Utilizadas
 - **Backend:** Node.js, TypeScript, Express, dotenv
 - **Frontend:** Vite, React, TypeScript, ESLint, Bulma, Lucide-react
